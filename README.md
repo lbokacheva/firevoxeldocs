@@ -1,0 +1,2 @@
+# firevoxeldocs
+FireVoxel Documenation
