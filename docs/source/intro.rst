@@ -36,4 +36,4 @@ Usage
 
 See `Quick Start <usage/quickstart.html>`_ for an introduction.
 
-.. Visit `Artem's blog <http://iacfvx.blogspot.com/>`_ to learn about the latest changes and features.
+
