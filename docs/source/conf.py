@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'FireVoxelDocs'
-copyright = '2020, FireVoxel'
+copyright = '2020, Artem Mikheev and Henry Rusinek'
 author = 'FireVoxel'
 
 # The full version, including alpha/beta/rc tags
