@@ -10,8 +10,8 @@ Windows XP and 32-bit Windows are not supported.
 Step-by-Step Instructions
 -------------------------
 
-1. Download FireVoxel*.zip `HERE <https://www.juliarun.org/317.zip>`_.
-   The current build is: **317**.
+1. Download FireVoxel*.zip `HERE <https://www.juliarun.org/319.zip>`_.
+   The current build is: **319**.
 
 2. Extract all files to your application folder, typically named FireVoxel.
    Don’t install FireVoxel within Program Files.

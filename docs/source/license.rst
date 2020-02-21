@@ -3,15 +3,15 @@ License
 
 Copyright (c) 2020
 
-New York University School of Medicine, Department of Radiology,
-Artem Mikheev and Henry Rusinek own all intellectual property in the software.
+**New York University School of Medicine, Department of Radiology,
+Artem Mikheev and Henry Rusinek own all intellectual property in the software.**
 
 THE FIREVOXEL SOFTWARE INCLUDES TECHNOLOGY DESIGNED TO PREVENT UNAUTHORIZED COPYING.
 
-Contact
--------
+Questions?
+----------
 
-Questions? Please contact hr18@nyu.edu for information about FireVoxel activation
+Please contact hr18@nyu.edu for information about FireVoxel activation
 and authorized use.
 
 License Agreement
