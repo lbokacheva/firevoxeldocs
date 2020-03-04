@@ -1,26 +1,7 @@
-Quick Start
-============
+Getting Started
+================
 
 This page contains FireVoxel PDF tutorials and sample data.
-
-How-to Guides
--------------
-
-This space for linking how-to guides
-
-.. Testing internal links to downloadable data
-    * :download:`Quick-start guide -- Basics <../files/Intro_QuickStart.pdf>`
-    * :download:`Quick-start guide -- Diffusion <../files/DiffusionMapQuickStart.pdf>`
-
-Tutorials
-----------
-
-This space for linking tutorials
-
-.. Testing internal links to downloadable data
-   * :download:`Coregistration tutorial <../files/Coregistration_QuickStart.pdf>`
-   * :download:`Texture tutorial <../files/Texture_QuickStart.pdf>`
-   * :download:`Vector ROI tutorial <../files/Vector_ROIs.pdf>`
 
 
 Download Sample Data
