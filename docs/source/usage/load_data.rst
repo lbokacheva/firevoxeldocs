@@ -22,7 +22,7 @@ Open FireVoxel document
 FireVoxel documents have \*.fvx extension.
 
 To open an existing document, launch FireVoxel,
-click :guilabel:`File` > :guilabel:`Open FireVoxel document`,
+click :menuselection:`File --> Open FireVoxel document`,
 navigate to the folder where the project is located,
 select the document’s name and click Open.
 A document window will appear displaying
@@ -40,7 +40,7 @@ Open FireVoxel folder
 
 This option is available only when no other documents
 or images are open.
-Click :guilabel:`File` > :guilabel:`Open FireVoxel folder` and select a folder.
+Click :menuselection:`File --> Open FireVoxel folder` and select a folder.
 All .fvx documents within this folder will be automatically open
 and displayed in individual document windows arranged as tiles.
 
