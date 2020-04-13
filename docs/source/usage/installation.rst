@@ -86,11 +86,11 @@ Install FireVoxel
 
 
    Click **No**. You will see another message showing your **12- to 15-digit Computer ID**,
-   also saved to the clipboard and ready to be pasted by using :guilabel:`Ctrl` + :guilabel:`v` (:numref:`NoKeyMachineID`).
+   also saved to the clipboard and ready to be pasted by using :guilabel:`Ctrl` + :guilabel:`V` (:numref:`NoKeyMachineID`).
 
    .. _NoKeyMachineID:
    .. figure:: ../images/FV_Error_NoKeyMachineID.png
-      :alt: This is your Computer ID. Use :guilabel:`Ctrl` + :guilabel:`v` to paste it into an email.
+      :alt: This is your Computer ID. Use :guilabel:`Ctrl` + :guilabel:`V` to paste it into an email.
       :align: center
       :scale: 100 %
       :figwidth: 70%
@@ -100,7 +100,7 @@ Install FireVoxel
 
 
 #. Email your Computer ID number to **hr18@nyu.edu**.
-   Use :guilabel:`Ctrl` + :guilabel:`v` to paste your Computer ID into the message.
+   Use :guilabel:`Ctrl` + :guilabel:`V` to paste your Computer ID into the message.
    Don’t send screenshot graphics. In the email, please also include your name,
    your place of work or study, and a brief description of your project
    for which you intend to use FireVoxel.
