@@ -50,8 +50,6 @@ extensions = ['sphinx.ext.autosectionlabel',
  #             'rst2pdf.pdfbuilder'
 ]
 
-imgmath_latex = r"C:\Program Files\MiKTeX 2.9\miktex\bin\x64\latex.exe"
-pngmath_dvipng=r"C:\Program Files\MiKTeX 2.9\miktex\bin\x64\dvipng.exe"
 html_math_renderer = 'imgmath'
 imgmath_image_format = 'png'
 imgmath_font_size = 14
