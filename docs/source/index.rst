@@ -3,48 +3,34 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-FireVoxel Documentation
-=======================
+.. include:: ../../README.rst
 
-Contents
---------
+.. toctree::
+   :caption: Getting Started
+   :maxdepth: 1
+
+   download
+   sample_data
+   usage/quickstart
+   tutorials
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Guide
+
+   contents
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
+   :caption: Information
 
-   intro
-
-   license
-
-   download
-
-   usage/quickstart
-   usage/vectorroi
-
-.. Under construction
-   usage/installation
-   usage/basics
-   usage/imagestats
-   usage/dynamic
-   usage/advanced
-   man/index
-   workflow
-   faq
-   glossary
-   devguide
-   examples
-   glossary
+   release_notes
 
 
-Index and Search
-----------------
+Questions?
+----------
 
-.. only:: builder_html
+If you have questions about FireVoxel usage,
+please contact the FireVoxel team at fvoxel@gmail.com.
 
-* :ref:`genindex`
-* :ref:`search`
-
-.. Out
-  * :ref:`glossary`
-  .. only:: not builder_html
-  * :ref:`glossary`

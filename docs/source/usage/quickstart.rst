@@ -1,22 +1,18 @@
-Getting Started
-================
+=================
+Quick Start Guide
+=================
 
-This page contains FireVoxel PDF tutorials and sample data.
+* Install FireVoxel on your hard drive (Installation)
 
+* Launch FireVoxel by double-clicking FireVoxel.exe icon
 
-Download Sample Data
---------------------
+* Load images
 
-.. Testing internal links to downloadable data
-   * :download:`Sample brain images <../sampledata/sample_brain_dicom.zip>`
-   * :download:`Sample diffusion images <../sampledata/diffusion_sample.zip>`
-   * :download:`Sample coregistration images <../sampledata/coreg_images.zip>`
+* View images: Scroll through slices using **Up** and **Down** keyboard keys
+  or the mouse wheel.
 
-* `Sample brain images <https://www.juliarun.org/sample_brain_dicom>`_
-* `Sample diffusion images <https://www.juliarun.org/diffusion_sample>`_
-* `Sample coregistration images <https://www.juliarun.org/coreg_images>`_
+* View all slices in a 3D image as tiles: Double righ-click on the image.
 
+* View a list of layers in a document: Double left-click on the image.
 
-
-
-
+* Draw an ROI: Click the paintbrush icon on the navigation toolbar.
