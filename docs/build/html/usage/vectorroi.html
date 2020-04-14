@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>8. Vector ROIs &mdash; FireVoxelDocs 0.0.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="9. Dynamic Contrast-Enhanced MRI" href="dce.html" />
+    <link rel="prev" title="7. Regions of Interest (ROIs) - Raster ROIs" href="rasterroi.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> FireVoxelDocs
+          
+
+          
+            
+            <img src="../_static/fvlogo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../download.html">Download FireVoxel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sample_data.html">Download Sample Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Video Tutorials</a></li>
+</ul>
+<p class="caption"><span class="caption-text">User Guide</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../contents.html">Table of Contents</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="intro.html">1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../license.html">2. License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">3. Install and Activate FireVoxel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="load_data.html">4. Open Documents and Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="save_doc.html">5. Save FireVoxel Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deidentify.html">6. De-identify Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rasterroi.html">7. Regions of Interest (ROIs) - Raster ROIs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">8. Vector ROIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dce.html">9. Dynamic Contrast-Enhanced MRI</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release_notes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FireVoxelDocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../contents.html">Table of Contents</a> &raquo;</li>
+        
+      <li><span class="section-number">8. </span>Vector ROIs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="vector-rois">
+<h1><span class="section-number">8. </span>Vector ROIs<a class="headerlink" href="#vector-rois" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-a-vector-roi-vroi">
+<h2><span class="section-number">8.1. </span>What is a vector ROI (VROI)<a class="headerlink" href="#what-is-a-vector-roi-vroi" title="Permalink to this headline">¶</a></h2>
+<p><strong>Vector ROI (VROI)</strong> is a tool for defining rectangular (box-like) regions of interest (ROIs).
+It is used for landmarking, measuring distances, and cropping.</p>
+</div>
+<div class="section" id="create-new-vroi">
+<h2><span class="section-number">8.2. </span>Create new VROI<a class="headerlink" href="#create-new-vroi" title="Permalink to this headline">¶</a></h2>
+<p><strong>Create new VROI:</strong> Click Draw VROI icon (<a class="reference internal" href="#createvroi"><span class="std std-numref">Fig. 8.1</span></a>).
+Then click on the lower-left coordinate of the box, drag the mouse
+to the upper-right coordinate, release the mouse button and click.
+A green rectangle will appear on the image.</p>
+<div class="align-center figure" id="id1">
+<span id="createvroi"></span><a class="reference internal image-reference" href="../_images/vroi-create.png"><img alt="Draw new vector ROI" src="../_images/vroi-create.png" style="width: 490.0px; height: 393.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8.1 </span><span class="caption-text">Click Add VROI icon and drag to draw a rectangular VROI.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="resize-or-move-vroi">
+<h2><span class="section-number">8.3. </span>Resize or move VROI<a class="headerlink" href="#resize-or-move-vroi" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Activate VROI:</strong> Click on VROI to activate it. This brings up two white corners or “handles” (red arrows in Fig. X).</p></li>
+<li><p><strong>Resize VROI:</strong> Left-click and drag the handles to change size of VROI.</p></li>
+<li><p><strong>Move VROI:</strong> Hold down the right mouse button to move VROI without changing its dimensions.</p></li>
+<li><p><strong>De-activate VROI:</strong> Left-click VROI or another existing VROI to de-activate the current VROI.</p></li>
+</ul>
+</div>
+<div class="section" id="multislice-vrois">
+<h2><span class="section-number">8.4. </span>Multislice VROIs<a class="headerlink" href="#multislice-vrois" title="Permalink to this headline">¶</a></h2>
+<p>The new VROI initially spans one slice in Z-dimension (across slices).
+If your image set is a time series (with 4 dimensions), the new VROI spans one time point in the time dimension.</p>
+<p>To extend the VROI to more than one slice, it will be convenient to quickly estimate its first and last slice
+on the film view.</p>
+<p><strong>Example:</strong> To enclose the cerebellum inside VROI, hover the mouse on the first and the last slice
+and read the corresponding slice numbers on the mouse tracker panel
+in the lower left margin of the image window (<a class="reference internal" href="#multislicevroi"><span class="std std-numref">Fig. 8.2</span></a>, green arrows).</p>
+<div class="align-center figure" id="id2">
+<span id="multislicevroi"></span><a class="reference internal image-reference" href="../_images/vroi-multislice.png"><img alt="Define multislice VROI" src="../_images/vroi-multislice.png" style="width: 437.0px; height: 344.5px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8.2 </span><span class="caption-text">This is a multislice VROI.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Hover the mouse above the first and last slice and note the slice numbers on the mouse tracker panel (green arrows).</p>
+<p>Then type the slice numbers as z0 and z1 coordinates of the VROI.</p>
+</div>
+<div class="section" id="vroi-properties">
+<h2><span class="section-number">8.5. </span>VROI properties<a class="headerlink" href="#vroi-properties" title="Permalink to this headline">¶</a></h2>
+<p>Double-click the VROI.
+A VROI properties dialog box will appear (<a class="reference internal" href="#propertiesvroi"><span class="std std-numref">Fig. 8.3</span></a>).</p>
+<div class="align-center figure" id="id3">
+<span id="propertiesvroi"></span><a class="reference internal image-reference" href="../_images/vroi-properties.png"><img alt="Define multislice VROI" src="../_images/vroi-properties.png" style="width: 344.5px; height: 167.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8.3 </span><span class="caption-text">VROI properties dialog box.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Name:</strong>
+Allows you to assign a name to the VROI.
+The name is required if VROI is used for fiducial landmarks.</p>
+<p><strong>Coordinates:</strong>
+Contains the coordinates of the corners of the VROI rectangle.
+The coordinates are expressed in voxels.
+Each field can be changed by typing in a new value.
+Navigate to the next field by pressing Tab.</p>
+<p><strong>Dimensions:</strong>
+Contains the dimensions of the VROI expressed in voxels or millimeters (“units” radio buttons).
+These values can also be changed – the center of the VROI remains fixed.</p>
+<p><strong>Time Interval:</strong>
+For 4D images only.
+Allows you to specify the starting and ending time points.
+Or click “All Timepoints” button to apply to the entire time series.</p>
+<p><strong>Full Volume:</strong>  Click to include the entire field of view in VROI.</p>
+<p><strong>Center:</strong> Click to attempt to move ROI so its 3D center would match the 3D center of the Volume.</p>
+<p>Also note Crop commands under Volume menu.
+These commands are used to crop current image.</p>
+<p>After generating a VROI, it might be useful to inspect its extent in 3 dimensions.
+This is done by clicking on 3 orthogonal projections icon – the lowest icon on FireVoxel toolbar.</p>
+</div>
+<div class="section" id="find-and-manage-vrois">
+<h2><span class="section-number">8.6. </span>Find and manage VROIs<a class="headerlink" href="#find-and-manage-vrois" title="Permalink to this headline">¶</a></h2>
+<p>The first five items under ROI menu are helpful in managing multiple ROIs:</p>
+<p><strong>List</strong> – Display the list of current VROIs.</p>
+<p><strong>Load</strong> – Retrieve previously saved VROI from a file.</p>
+<p><strong>Save</strong> – Save all existing VROIS in a text file. The file extension is .vroi.
+Note that saving the entire document in FireVoxel .fvx format will also save VROIs.</p>
+<p><strong>Next or F11</strong> – Display the next VROI and make it active.</p>
+<p><strong>Delete</strong> – Delete VROIs. You also delete an active VROI by pressing the Delete key.</p>
+<p>There is also a tool to convert a raster ROI (created using paintbrush) to VROI:
+ROI–&gt; Enclose connected components by VROIs.</p>
+</div>
+<div class="section" id="crop-using-vroi">
+<h2><span class="section-number">8.7. </span>Crop using VROI<a class="headerlink" href="#crop-using-vroi" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Define your VROI. If your base image is 4D, pay attention at which timepoints are included.</p></li>
+<li><p>Select the desired cropping operation under Volume –&gt; Crop.
+Note that some cropping tools operate on selected image layers,
+other will crop all the layers. Simple cropping, like single slice cropping, don’t need VROI.</p></li>
+</ol>
+</div>
+<div class="section" id="measure-distance-using-vroi">
+<h2><span class="section-number">8.8. </span>Measure distance using VROI<a class="headerlink" href="#measure-distance-using-vroi" title="Permalink to this headline">¶</a></h2>
+<p>Distance between two points on a slice can be measured using an VROI and a calculator.</p>
+<p>Create a VROI that encloses the object of interest (e.g., kidney, <a class="reference internal" href="#measuredistance"><span class="std std-numref">Fig. 8.4</span></a>).</p>
+<p>Open VROI properties dialog box. Set the units to mm. Record the VROI dimensions.</p>
+<p>Calculate the distance using the width and height of VROI: Distance = sqrt(Width<sup>2</sup> + Height<sup>2</sup>).</p>
+<div class="align-center figure" id="id4">
+<span id="measuredistance"></span><a class="reference internal image-reference" href="../_images/vroi-diagonal.png"><img alt="Measure distance using VROI" src="../_images/vroi-diagonal.png" style="width: 480.0px; height: 625.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8.4 </span><span class="caption-text">Measure kidney size with VROI.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="use-vrois-for-landmark-based-coregistration">
+<h2><span class="section-number">8.9. </span>Use VROIs for landmark-based coregistration<a class="headerlink" href="#use-vrois-for-landmark-based-coregistration" title="Permalink to this headline">¶</a></h2>
+<p>Multiple VROIs can be used for 3D image coregistration
+based on corresponding landmarks.
+The user needs to enter VROI names to label matching landmarks.
+See Coregistration Quickstart for details.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dce.html" class="btn btn-neutral float-right" title="9. Dynamic Contrast-Enhanced MRI" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="rasterroi.html" class="btn btn-neutral float-left" title="7. Regions of Interest (ROIs) - Raster ROIs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Artem Mikheev and Henry Rusinek
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

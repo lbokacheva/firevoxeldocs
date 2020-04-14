@@ -1,41 +1,18 @@
-Quick Start
-============
+=================
+Quick Start Guide
+=================
 
-This page contains FireVoxel PDF tutorials and sample data.
+* Install FireVoxel on your hard drive (Installation)
 
-How-to Guides
--------------
+* Launch FireVoxel by double-clicking FireVoxel.exe icon
 
-This space for linking how-to guides
+* Load images
 
-.. Testing internal links to downloadable data
-    * :download:`Quick-start guide -- Basics <../files/Intro_QuickStart.pdf>`
-    * :download:`Quick-start guide -- Diffusion <../files/DiffusionMapQuickStart.pdf>`
+* View images: Scroll through slices using **Up** and **Down** keyboard keys
+  or the mouse wheel.
 
-Tutorials
-----------
+* View all slices in a 3D image as tiles: Double righ-click on the image.
 
-This space for linking tutorials
+* View a list of layers in a document: Double left-click on the image.
 
-.. Testing internal links to downloadable data
-   * :download:`Coregistration tutorial <../files/Coregistration_QuickStart.pdf>`
-   * :download:`Texture tutorial <../files/Texture_QuickStart.pdf>`
-   * :download:`Vector ROI tutorial <../files/Vector_ROIs.pdf>`
-
-
-Download Sample Data
---------------------
-
-.. Testing internal links to downloadable data
-   * :download:`Sample brain images <../sampledata/sample_brain_dicom.zip>`
-   * :download:`Sample diffusion images <../sampledata/diffusion_sample.zip>`
-   * :download:`Sample coregistration images <../sampledata/coreg_images.zip>`
-
-* `Sample brain images <https://www.juliarun.org/sample_brain_dicom>`_
-* `Sample diffusion images <https://www.juliarun.org/diffusion_sample>`_
-* `Sample coregistration images <https://www.juliarun.org/coreg_images>`_
-
-
-
-
-
+* Draw an ROI: Click the paintbrush icon on the navigation toolbar.
