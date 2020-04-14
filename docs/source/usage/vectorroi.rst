@@ -29,7 +29,8 @@ A green rectangle will appear on the image.
 Resize or move VROI
 -------------------
 
-* **Activate VROI:** Click on VROI to activate it. This brings up two white corners or "handles" (red arrows in Fig. X).
+* **Activate VROI:** Click on VROI to activate it. This brings up two white corners or "handles"
+  (red arrows in :numref:`CreateVROI`).
 * **Resize VROI:** Left-click and drag the handles to change size of VROI.
 * **Move VROI:** Hold down the right mouse button to move VROI without changing its dimensions.
 * **De-activate VROI:** Left-click VROI or another existing VROI to de-activate the current VROI.
@@ -45,7 +46,11 @@ on the film view.
 
 **Example:** To enclose the cerebellum inside VROI, hover the mouse on the first and the last slice
 and read the corresponding slice numbers on the mouse tracker panel
-in the lower left margin of the image window (:numref:`MultisliceVROI`, green arrows).
+in the lower left margin of the image window (:numref:`MultisliceVROI`, green arrow).
+
+Hover the mouse above the first and last slice and note the slice numbers on the mouse tracker panel (green arrows).
+
+Then type the slice numbers as z0 and z1 coordinates of the VROI.
 
 .. _MultisliceVROI:
 .. figure:: ../images/vroi-multislice.png
@@ -54,12 +59,7 @@ in the lower left margin of the image window (:numref:`MultisliceVROI`, green ar
     :scale: 50 %
     :figclass: align-center
 
-    This is a multislice VROI.
-
-
-Hover the mouse above the first and last slice and note the slice numbers on the mouse tracker panel (green arrows).
-
-Then type the slice numbers as z0 and z1 coordinates of the VROI.
+    Multislice VROI.
 
 
 VROI properties
@@ -139,13 +139,14 @@ Crop using VROI
 Measure distance using VROI
 ---------------------------
 
-Distance between two points on a slice can be measured using an VROI and a calculator.
+The distance between two points on a slice can be measured using an VROI and a calculator.
 
-Create a VROI that encloses the object of interest (e.g., kidney, :numref:`MeasureDistance`).
+1. Create a VROI that encloses the object of interest (e.g., kidney, :numref:`MeasureDistance`).
 
-Open VROI properties dialog box. Set the units to mm. Record the VROI dimensions.
+2. Open VROI properties dialog box. Set the units to mm. Record the VROI dimensions.
 
-Calculate the distance using the width and height of VROI: Distance = sqrt(Width\ :sup:`2` + Height\ :sup:`2`).
+3. Calculate the distance using the width and height of VROI:
+   :math:`distance = \sqrt{width^2 + height^2}`.
 
 .. _MeasureDistance:
 .. figure:: ../images/vroi-diagonal.png
@@ -164,5 +165,5 @@ Use VROIs for landmark-based coregistration
 Multiple VROIs can be used for 3D image coregistration
 based on corresponding landmarks.
 The user needs to enter VROI names to label matching landmarks.
-See Coregistration Quickstart for details.
+
 

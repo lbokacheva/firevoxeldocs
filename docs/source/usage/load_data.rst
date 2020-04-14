@@ -7,58 +7,56 @@ Open Documents and Images
    :local:
    :backlinks: none
 
-File menu options
------------------
+File formats
+------------
 
-FireVoxel's :guilabel:`File` menu contains several different options
-for opening/loading/importing images in various formats.
-FireVoxel can open FireVoxel documents, DICOM images and
-directories, as well as Midas, ANALYZE, Nifti, FreeSurfer,
-and RAW 4D files.
+FireVoxel's :guilabel:`File` menu contains options
+for opening or importing images in different formats including:
+
+* FireVoxel documents (``*.fvx``)
+* DICOM images and directories (``*.dci``, ``*.dcm``)
+* Midas, ANALYZE, Nifti, FreeSurfer, and RAW 4D files.
+  (``*.im``, ``*.img``, ``*.nii``, ``*.nia``, ``*.nii.gz``)
 
 Open FireVoxel document
 -----------------------
 
-FireVoxel documents have \*.fvx extension.
-
-To open an existing document, launch FireVoxel,
-click :menuselection:`File --> Open FireVoxel document`,
+To open an existing document,
+select :guilabel:`File > Open FireVoxel document`,
 navigate to the folder where the project is located,
-select the document’s name and click Open.
-A document window will appear displaying
-the images within the document.
+select the document’s name and click :guilabel:`Open`.
+The document will be open inside a FireVoxel document window.
 
 More than one document can be open at the same time.
 To open another document, repeat the previous step
 and select a different document.
 Only one document can be active at a time.
-To make a document window active,
-left-click anywhere within this window.
+To switch between documents, click anywhere
+within the desired document window.
 
 Open FireVoxel folder
 ---------------------
 
 This option is available only when no other documents
 or images are open.
-Click :menuselection:`File --> Open FireVoxel folder` and select a folder.
+Select :guilabel:`File > Open FireVoxel folder` and select a folder.
 All .fvx documents within this folder will be automatically open
 and displayed in individual document windows arranged as tiles.
 
 
-Open DICOM single document
+Open DICOM document(s)
 --------------------------
 
-Open DICOM file
-
-Open DICOM multiple documents
------------------------------
-
-Open DICOM directory
+To open a DICOM image, select :guilabel:`File > Open DICOM single image`
+select the folder containing images, and click :guilabel:`Open`.
+To open a DICOM directory, select :guilabel:`File > Open DICOM multiple images`
+select the directory, and click :guilabel:`Open`.
 
 Open image
 ----------
 
-Open image file (\*.im, \*.img, \*.nii, \*.nia, \*.nii.gz).
+To open an image file, select :guilabel:`File > Open image`,
+navigate to the directory where the image is located, and click :guilabel:`Open`.
 
 Open TAC as 4D
 --------------
